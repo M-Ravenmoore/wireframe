@@ -1,0 +1,51 @@
+
+header {
+  background-color: rgb(77, 77, 77);
+  display:flex;
+}
+header img{
+  width: 200px;
+  margin: 10px 10px 10px 120px;
+}
+#navigation{
+  display: block
+}
+#hero-img{
+  width: 960px;
+  height: 450px;
+  margin: 15px auto;
+}
+#Sub-Banner-box{
+  display:flex;
+  justify-content: space-between;
+  width: 960px;
+  margin: 15px auto;
+}
+
+#featured{
+  display:flex;
+}
+#featured-img{
+  flex-direction:right;
+  margin: 15px auto;
+}
+#featured-blerb{
+  margin: 15px auto;
+}
+#featured-blerb p {
+  overflow: hidden;
+  width:480px;
+}
+
+footer{
+  background-color: rgb(77, 77, 77);
+  height: 200px;
+}
+/* these want to be flex but im having problems making it work */
+nav{
+
+}
+
+
+.subBanner{
+}
